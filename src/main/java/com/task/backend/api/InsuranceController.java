@@ -17,7 +17,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.Objects;
 
 @RestController
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://insurance-application-frontend.herokuapp.com/")
 @RequestMapping("/api")
 @RequiredArgsConstructor
 public class InsuranceController {
